@@ -1,2 +1,3 @@
-# Greenfoot-5thingsAboutObjects
+# 5 things about objects ... introducing Greenfoot
+
 Objects-first Introduction to programming
