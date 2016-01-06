@@ -34,7 +34,7 @@ It was after my banking software days were over that I wrote my first game as a 
 
 ##World
 
-The world is the board that the game is played on. In [Greenfoot](http://www.greenfoot.org/), the gaming environment that runs [this repository](https://github.com/rhildred/Greenfoot-5thingsAboutObjects) you make your world by specializing or extending a World object that is built in to Greenfoot. 
+The world is the board that the game is played on. In [Greenfoot](http://www.greenfoot.org/), the gaming environment that runs [this repository](https://github.com/rhildred/Greenfoot-5thingsAboutObjects), you make your world by specializing or extending a World object that is built in to Greenfoot. 
 
 ![From Greenfoot Tutorial](http://www.greenfoot.org/images/tutorials/wombat/scenario-main.png?1325954072 "From Greenfoot Tutorial")
 
