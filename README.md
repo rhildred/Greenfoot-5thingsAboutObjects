@@ -65,6 +65,11 @@ Generally a Greenfoot world creates the actors in that world:
 
 You can get Greenfoot to write the `prepare` method by creating new actors on the world and using the`Controls/Save The world` menu item. 
 
+##Actor
+
+A Greenfoot actor, like World, is a specialization of a built in actor. The built in actor can `act` every once in a while. Each actor knows how to act for themselves (polymorphism).
+
+
 ##Making the wombat scenario more "gamey"
 
 The poor wombat in [tutorial 1](http://www.greenfoot.org/doc/tut-1) could only reach food that was on the edge of the screen. I added a method that let the user show the wombat where to go by tapping or mouse clicking past the wombat in the direction that you are leading him:
