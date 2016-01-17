@@ -8,6 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class PoisonousShroom extends Food
 {
+    public PoisonousShroom(){
+        setImage("mushroom.png");
+    }
+
     public boolean bPoisonous(){
         return true;
     }

@@ -24,6 +24,7 @@ public class Wombat extends Actor
     {
         setDirection(EAST);
         leavesEaten = 0;
+        setImage("wombat.gif");
     }
 
     /**
@@ -91,7 +92,7 @@ public class Wombat extends Actor
      */
     public void eatFood()
     {
-        Food food = getOneObjectAtOffset(0, 0, Food.class);
+        Food food = (Food)getOneObjectAtOffset(0, 0, Food.class);
         if(food != null) {
             // eat the leaf...
             World world = getWorld();

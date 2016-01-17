@@ -8,4 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 public class Leaf extends Food
 {
+    public Leaf(){
+        setImage("leaf.gif");
+    }
 }
