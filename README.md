@@ -8,7 +8,7 @@ As I said I had a bank account. Accounts have properties and behaviors. An accou
 
 ##Thing 1 
 
-Objects are made of behavior and properties together. An instance of an object like account 12345 belongs to a class of objects. The class of the object is like a template that a new object is created from. When an instance of an object is created from a template there is a special behavior `new` that is performed. In Java when `new` is performed to make a new instance of an object a method with the same name as the class is called automatically.
+Objects are made of behavior and properties **encapsulated** together. An instance of an object like account 12345 belongs to a class of objects. The class of the object is like a template that a new object is created from. When an instance of an object is created from a template there is a special behavior `new` that is performed. In Java when `new` is performed to make a new instance of an object a method with the same name as the class is called automatically.
 
 ###Customer
 
@@ -16,9 +16,9 @@ When I started writing banking software I had been a customer of a bank since hi
 
 ## Thing 2
 
-Objects are interrelated. A customer can have more than 1 account. You don't actually have a plain account as a customer, what you have is a specialization of an account, like a savings account. An account is a generalization from which specializations inherit properties like a balance, an account number .... There are 2 ways an object can be related to an object:
+Objects are interrelated. A customer can have more than 1 account. You don't actually have a plain account as a customer, what you have is a specialization of an account, like a savings account. An account is a generalization from which specializations **inherit** properties like a balance, an account number .... There are 2 ways an object can be related to an object:
 1. aggregation - a customer has 1 - infinity accounts
-2. inheritance - an account is a generalization of all of the different types of accounts like savings chequeing  ...
+2. **inheritance** - an account is a generalization of all of the different types of accounts like savings chequeing  ...
 
 ###Using an Account
 
@@ -26,7 +26,7 @@ When I make a withdrawal from my Visa, the account checks to make sure I have su
 
 ##Thing 3
 
-To use an object, I perform some behavior on it, in the above case withdrawing. Depending on the specialization of the account, I do withdrawing in slightly different ways. Performing the same behavior with an object in different specialized ways is called polymorphism.
+To use an object, I perform some behavior on it, in the above case withdrawing. Depending on the specialization of the account, I do withdrawing in slightly different ways. Performing the same behavior with an object in different specialized ways is called **polymorphism**.
 
 #My First Game
 
